@@ -128,8 +128,16 @@ let objectLit = function() {
   };
 };
 
+let newObjectlit = array => ({
+  firstValue: array[0],
+  secondValue: array[1],
+  thirdValue: array[2],
+})
+
+console.log(newObjectlit(['value1', 'value2', 'value3']));
+
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+console.log(objectLit());
 
 
 let sumAndProduct = function(a, b) {
