@@ -146,8 +146,16 @@ let sumAndProduct = function(a, b) {
   return [sum, product];
 };
 
+let newsumAndProduct = (a, b) => {
+  newSum = a +b;
+  newProduct = a *b;
+  return newSum, newProduct;
+}
+
+console.log(newsumAndProduct(3, 9));
+
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
 
 
 let message = function(name) {
@@ -155,7 +163,7 @@ let message = function(name) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
 
 
 let Student = function(name, age, hometown) {
