@@ -146,13 +146,10 @@ let sumAndProduct = function(a, b) {
   return [sum, product];
 };
 
-let newsumAndProduct = (a, b) => {
-  newSum = a +b;
-  newProduct = a *b;
-  return newSum, newProduct;
-}
+// let newsumAndProduct = (a, b) => a + b; a * b;
+ 
 
-console.log(newsumAndProduct(3, 9));
+// console.log(newsumAndProduct(3, 9));
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sumAndProduct(3, 9));
@@ -161,6 +158,10 @@ console.log(sumAndProduct(3, 9));
 let message = function(name) {
   return `Hello, ${name}!`;
 };
+
+let newMessage = (name) => {return(`Hello ${name}!`)}
+
+console.log(newMessage('Allie'));
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
